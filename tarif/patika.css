@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(221, 179, 179);
+}
+h1{
+    color: brown;
+}
+.info{
+    color: brown;
+}
+#information{
+    list-style-type:none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 500px;
+}
+.line{
+    border-bottom: 1px solid black;
+}
+aside{
+    margin-left: 350px;
+}
+h2{
+    color: white;
+    background-color: brown;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#last{
+    font-size: 40px;
+    font-family: cursive;
+    color: brown;
+    margin-left: 500px;
+}
