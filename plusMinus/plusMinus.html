@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #number{
+            font-family: fantasy;
+            font-size: 200px;
+            display: flex;
+            justify-content: center;
+            margin-top: 75px;
+        }
+        #addition,#decrease{
+            height: 100px;
+            width: 100px;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 40px;
+            align-items: center;
+            justify-content: center;
+        }
+        #addition{
+            margin-right: 30px;
+        }
+        #decrease{
+            margin-left: 30px;
+        }
+        .operation{
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <span id="number">0</span>
+    <div class="operation">
+        <button id="addition">+</button>
+        <button id="decrease">-</button>
+    </div>
+    <script src="plusMinus.js"></script>
+</body>
+</html>
